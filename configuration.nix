@@ -172,6 +172,7 @@
     parted
     nitch
     filezilla
+    heroic
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
