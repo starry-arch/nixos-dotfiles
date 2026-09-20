@@ -173,6 +173,9 @@
     nitch
     filezilla
     heroic
+    gruvbox-plus-icons
+    kitty
+    fishPlugins.tide
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -193,6 +196,15 @@
       automatic = true;
       dates = "2d";
       options = "--delete-older-than 7d";
+    };
+
+
+  # Fish Shell and Tide
+    users.users.titus.shell = pkgs.fish;
+
+    programs.fish = {
+      enable = true;
+
     };
 
   # This value determines the NixOS release from which the default
