@@ -176,6 +176,7 @@
     gruvbox-plus-icons
     kitty
     fishPlugins.tide
+    emacs
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
